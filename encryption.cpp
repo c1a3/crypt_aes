@@ -32,3 +32,5 @@ void encrypt_file(const std::string& input_path, const std::string& output_path,
 
     EVP_CIPHER_CTX_free(ctx);
 }
+
+/Encryption Algorithm
