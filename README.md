@@ -37,7 +37,7 @@ Before running the application, ensure you have the following installed:
    ```
 
 3. **OpenSSL**: The OpenSSL library for encryption. Installation depends on your operating system:
-   - On Ubuntu/Debian: `sudo dnf install openssl openssl-devel`
+   - On RHEL/Fedora: `sudo dnf install openssl openssl-devel`
    - On macOS with Homebrew: `brew install openssl`
    - On Windows: Download and install from https://slproweb.com/products/Win32OpenSSL.html
 
