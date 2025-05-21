@@ -33,6 +33,8 @@ void decrypt_file(const std::string& input_path, const std::string& output_path,
 
 //     while (input_file.good()) {
 
+        input_file.read(reinterpret_cast<char*>(buffer.data()), buffer.size());     while (input_file.good()) {
         input_file.read(reinterpret_cast<char*>(buffer.data()), buffer.size());
+        std::streamsize bytes_read = input_file.gcount();
 
 
