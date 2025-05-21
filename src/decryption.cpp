@@ -31,8 +31,6 @@ void decrypt_file(const std::string& input_path, const std::string& output_path,
     EVP_CIPHER_CTX_free(ctx);
 }
 
-//     while (input_file.good()) {
-        input_file.read(reinterpret_cast<char*>(buffer.data()), buffer.size());  
-        std::streamsize bytes_read = input_file.gcount();
+//
 
 
