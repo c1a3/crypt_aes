@@ -10,4 +10,4 @@ std::vector<unsigned char> derive_key(const std::string& password);
 void encrypt_file(const std::string& input_path, const std::string& output_path, const std::string& password);
 void decrypt_file(const std::string& input_path, const std::string& output_path, const std::string& password);
 
-#endif // CRYPTO_UTILS_H
+#endif // CRYPTO_UTILS_H //
