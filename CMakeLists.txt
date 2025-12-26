@@ -10,7 +10,7 @@ add_executable(crypt_aes
 	src/encryption.cpp
 	src/decryption.cpp
 	src/key.cpp
-	src/main.cpp
+	src/main.cpp 
 )
 
 target_include_directories(crypt_aes PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/src)
