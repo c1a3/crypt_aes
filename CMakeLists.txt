@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 find_package(OpenSSL REQUIRED)
 
 add_executable(crypt_aes
-	src/encryption.cpp
+	src/encryption.cpp 
 	src/decryption.cpp
 	src/key.cpp
 	src/main.cpp 
