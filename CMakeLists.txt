@@ -3,7 +3,7 @@ project(crypt_aes)
 
 set(CMAKE_CXX_STANDARD 11) 
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-
+ 
 find_package(OpenSSL REQUIRED)
 
 add_executable(crypt_aes
